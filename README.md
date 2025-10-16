@@ -63,11 +63,14 @@ Testing the APIs:
 1. /upload-document/ - Upload a PDF or TXT, select chunking strategy.
 2. /chat/ - POST a JSON payload with session_id and query:
    {
+   
        "session_id": "test1234",
        "query": "What is the PDF about?"
+   
    }
-3. /book/ - POST booking info:
+4. /book/ - POST booking info:
    {
+   
        "name": "John Doe",
        "email": "john@example.com",
        "date": "2025-10-20",
@@ -78,9 +81,6 @@ Future Improvements:
 - Add advanced response generation using LLMs (Gemini or similar) for better summarization.
 - Support additional document formats (Word, HTML, etc.).
 - Implement user authentication and session management.
-- Add relevance scoring and ranking for retrieved chunks.
-- Improve chunking strategies using NLP-based sentence segmentation.
-- Enable multiple vector database support (Pinecone, Weaviate, Milvus).
 - Dockerize the entire application for production deployment.
 
 Notes:
