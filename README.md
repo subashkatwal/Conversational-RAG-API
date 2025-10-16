@@ -1,4 +1,4 @@
-#CONVERSATIONAL RAG BACKEND 
+# CONVERSATIONAL RAG BACKEND 
 
 Project Overview:
 This project implements a Conversational Retrieval-Augmented Generation (RAG) system using FastAPI. 
