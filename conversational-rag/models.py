@@ -15,4 +15,4 @@ class Document(Base):
     id = Column(Integer, primary_key=True, index=True)
     filename = Column(String)
     content = Column(String) 
-    uploaded_at = Column(DateTime, default=datetime)
+    uploaded_at = Column(DateTime, default=datetime.now)
